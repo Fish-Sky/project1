@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class test1 {
 public static void res(){
-System.out.println("1.ÏÔÊ¾½á¹û\t2.Ö±½Ó¿ªÊ¼ÏÂÒ»Ìâ");
+System.out.println("1.æ˜¾ç¤ºç»“æœ\t2.ç›´æ¥å¼€å§‹ä¸‹ä¸€é¢˜");
 }
 @SuppressWarnings({ "resource" })
 public static void main (String[] arge){
-	System.out.println("*****ÇëÑ¡ÔñÒªËæ»úÉú³ÉµÄËã·¨*****");
-    System.out.println("\t1,¼Ó·¨\t2,¼õ·¨\t3,³Ë·¨\t4,³ı·¨");
+	System.out.println("*****è¯·é€‰æ‹©è¦éšæœºç”Ÿæˆçš„ç®—æ³•*****");
+    System.out.println("\t1,åŠ æ³•\t2,å‡æ³•\t3,ä¹˜æ³•\t4,é™¤æ³•");
     System.out.println("**********");
     Scanner sd=new Scanner(System.in);
     int s = sd.nextInt();
@@ -23,15 +23,15 @@ case 1:
 	System.out.println("-----|"+a+"+"+b+"=?|-----");
 	result =a+b;
 	Scanner sc = new Scanner(System.in);
-	System.out.println("ÊäÈëÄãµÄ´ğ°¸£º");
+	System.out.println("è¾“å…¥ä½ çš„ç­”æ¡ˆï¼š");
 	int answer=sc.nextInt();
 	if(answer==result)
 	{
-		System.out.println("ÕıÈ·£¡");
+		System.out.println("æ­£ç¡®ï¼");
 	}
 	else
 	{
-		System.out.println("´íÎó£¡");
+		System.out.println("é”™è¯¯ï¼");
 	}
 	res();
 	break;
@@ -39,15 +39,15 @@ case 2:
 	System.out.println("-----|"+a+"-"+b+"=?|-----");
 	result =a-b;
 	Scanner sc2 = new Scanner(System.in);
-	System.out.println("ÊäÈëÄãµÄ´ğ°¸£º");
+	System.out.println("è¾“å…¥ä½ çš„ç­”æ¡ˆï¼š");
 	int answer2=sc2.nextInt();
 	if(answer2==result)
 	{
-		System.out.println("ÕıÈ·£¡");
+		System.out.println("æ­£ç¡®ï¼");
 	}
 	else
 	{
-		System.out.println("´íÎó£¡");
+		System.out.println("é”™è¯¯ï¼");
 	}
 	res();
 	break;
@@ -55,15 +55,15 @@ case 3:
 	System.out.println("-----|"+a+"*"+b+"=?|-----");
 	result =a*b;
 	Scanner sc3 = new Scanner(System.in);
-	System.out.println("ÊäÈëÄãµÄ´ğ°¸£º");
+	System.out.println("è¾“å…¥ä½ çš„ç­”æ¡ˆï¼š");
 	int answer3=sc3.nextInt();
 	if(answer3==result)
 	{
-		System.out.println("ÕıÈ·£¡");
+		System.out.println("æ­£ç¡®ï¼");
 	}
 	else
 	{
-		System.out.println("´íÎó£¡");
+		System.out.println("é”™è¯¯ï¼");
 	}
 	res();
 	break;
@@ -75,20 +75,20 @@ case 4:
 	    result=c/d;
 	    }
 	Scanner sc4 = new Scanner(System.in);
-	System.out.println("ÊäÈëÄãµÄ´ğ°¸£º");
+	System.out.println("è¾“å…¥ä½ çš„ç­”æ¡ˆï¼š");
 	int answer4=sc4.nextInt();
 	if(answer4==result)
 	{
-		System.out.println("ÕıÈ·£¡");
+		System.out.println("æ­£ç¡®ï¼");
 	}
 	else
 	{
-		System.out.println("´íÎó£¡");
+		System.out.println("é”™è¯¯ï¼");
 	}
 	res();
 	break;
 default:
-	System.out.println("ÊäÈëÓĞÎó£¬ÖØĞÂ¿ªÊ¼");
+	System.out.println("è¾“å…¥æœ‰è¯¯ï¼Œé‡æ–°å¼€å§‹");
 	main(null);
 	break;
 }
@@ -96,17 +96,17 @@ Scanner select =new Scanner(System.in);
 int se =select.nextInt();
 switch (se){
 case 1:
-	System.out.println("±¾ÌâµÄ½á¹û£º"+result);
+	System.out.println("æœ¬é¢˜çš„ç»“æœï¼š"+result);
 	main(null);
 	break;
 case 2:
 	main(null);
 	break;
 default:
-	System.out.println("ÊäÈëÓĞÎó£¬ÖØĞÂ¿ªÊ¼");
+	System.out.println("è¾“å…¥æœ‰è¯¯ï¼Œé‡æ–°å¼€å§‹");
 	main(null);
 }
 }
 }
 
-
+ä»£ç å‚è€ƒæ¥æºï¼šhttp://www.cnblogs.com/896702797-qw/p/5282480.html
